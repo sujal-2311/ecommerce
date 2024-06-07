@@ -17,7 +17,7 @@ import UpdateProduct from "./pages/Admin/updateProduct";
 import Users from "./pages/Admin/Users";
 import Profile from "./pages/user/Profile";
 import Orders from "./pages/user/Orders";
-import './App.css'
+import "./App.css";
 import Products from "./pages/Admin/Products";
 import Search from "./pages/Search";
 import ProductDetails from "./pages/ProductDetails";
@@ -27,7 +27,7 @@ import AdminOrders from "./pages/Admin/AdminOrders";
 function App() {
   return (
     <>
-      <Toaster />
+      <Toaster position="top-right" reverseOrder={false} />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/product/:id" element={<ProductDetails />} />
